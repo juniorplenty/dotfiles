@@ -1,0 +1,7 @@
+Host *
+ForwardAgent yes
+StrictHostKeyChecking no
+UserKnownHostsFile=/dev/null
+ControlPersist 4h
+ControlMaster auto
+ControlPath /tmp/ssh_mux_%h_%p_%r

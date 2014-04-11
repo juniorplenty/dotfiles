@@ -1,0 +1,10 @@
+#shell             bash
+defscrollback     100000
+vbell_msg         " *beep* "
+defutf8           on
+vbell             off
+startup_message   off
+caption           always "%w"
+#caption always "%{-b ..}%-w%{+b ..}[%n%f*%t]%{-}%+w"
+#caption always "%L=%-Lw%45>%{+b by}%n%f* %t%{-} %+Lw%-0<"
+escape ^|\

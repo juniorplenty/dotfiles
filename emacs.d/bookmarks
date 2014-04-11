@@ -1,0 +1,15 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("floobits-KRD1-2582"
+ (filename . "/usr/local/140proof/node-usergeo/index.js")
+ (front-context-string . "var mysql = requ")
+ (rear-context-string)
+ (position . 1))
+("floobits-KRD1-2543"
+ (filename . "/usr/local/140proof/node-usergeo/package.json")
+ (front-context-string)
+ (rear-context-string . "\n      \"mysql\"\n ")
+ (position . 293))
+)

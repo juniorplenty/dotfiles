@@ -1,0 +1,49 @@
+[user]
+        name = Jason Bond Pratt
+        email = jason@140proof.com
+
+[alias]
+  br    = branch
+  ci    = commit -v
+  co    = checkout
+  di    = diff
+  diw   = diff --word-diff
+  hist  = log --reverse --format=old --date=short
+  l     = log --graph --abbrev-commit --pretty=tight
+  st    = status
+  undo  = reset --soft HEAD^
+  up    = pull --rebase
+  wup   = log -p origin..@{0}
+
+[branch]
+  autosetuprebase = always
+[core]
+  quotepath    = false
+  excludesfile = ~/.gitignore-global
+[help]
+  autocorrect = 1
+[rerere]
+	enabled = true
+
+[color]
+  branch    = auto
+  diff      = auto
+  status    = auto
+  ui        = true
+[color "branch"]
+  current   = yellow reverse
+  local     = yellow
+  remote    = green
+[color "diff"]
+  meta      = cyan bold
+  frag      = white
+  old       = red
+  new       = green
+[color "status"]
+  added     = yellow
+  changed   = green
+  untracked = cyan
+
+[pretty]
+  old = %Cgreen%ad %C(white)%aN%C(yellow)%d%Creset %s %Cblue%h
+  tight = %Cblue%h%Creset -%C(yellow)%d%Creset %s %Cgreen%cr %C(white)%aN
